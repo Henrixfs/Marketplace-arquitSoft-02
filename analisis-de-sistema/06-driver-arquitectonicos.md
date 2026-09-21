@@ -228,7 +228,7 @@ Integrar los elementos identificados anteriormente (requisitos funcionales, atri
 ---
 
 ## Matriz de relaciones
-
+ 
 ```mermaid
 flowchart LR
     HU["Historias de Usuario"]
@@ -239,20 +239,20 @@ flowchart LR
     DA["DRIVERS ARQUITECTÓNICOS"]
     
     ARQ["Arquitectura del Sistema"]
-
+ 
     HU --> RF
     RF --> DA
     AC --> DA
     RC --> DA
     
     DA --> ARQ
-
-    style HU fill:#bbdefb
-    style RF fill:#c8e6c9
-    style AC fill:#ffe0b2
-    style RC fill:#ffccbc
-    style DA fill:#f8bbd0,stroke:#c2185b,stroke-width:3px
-    style ARQ fill:#e1bee7,stroke:#7b1fa2,stroke-width:3px
+ 
+    style HU fill:#bbdefb,color:#000
+    style RF fill:#c8e6c9,color:#000
+    style AC fill:#ffe0b2,color:#000
+    style RC fill:#ffccbc,color:#000
+    style DA fill:#f8bbd0,stroke:#c2185b,stroke-width:3px,color:#000
+    style ARQ fill:#e1bee7,stroke:#7b1fa2,stroke-width:3px,color:#000
 ```
 
 ---
