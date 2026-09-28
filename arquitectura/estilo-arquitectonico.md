@@ -142,21 +142,6 @@ flowchart TB
     style MG fill:#ffffff,stroke:#9e9e9e,stroke-dasharray: 5 5,color:#000
 ```
 
-### Leyenda
-
-| Elemento | Color | Significado |
-|----------|-------|-------------|
-| 🟦 Azul claro | `routes`, `controller` | **Capa de Presentación** — Recibe HTTP, valida entrada |
-| 🟩 Verde | `service` | **Capa de Lógica de Negocio** — Reglas y orquestación |
-| 🟧 Naranja | `repository` | **Capa de Datos** — Persistencia en BD |
-| 🟪 Morado | `*.adapter.js` | **Adaptadores** — Integración con sistemas externos |
-| ⬜ Gris | Sistemas externos | **Fuera del monolito** |
-| `──▶` Flecha continua | | Llamada síncrona entre capas (hacia abajo) |
-| `- - ▶` Flecha punteada | | Llamada entre módulos (a través de service) |
-| Recuadro punteado | | Límite de módulo |
-
----
-
 ## DIAGRAMA 2: Arquitectura en Capas (Visión Interna)
 
 Muestra cómo está **organizado cada módulo internamente** en capas, siguiendo Clean Architecture.
